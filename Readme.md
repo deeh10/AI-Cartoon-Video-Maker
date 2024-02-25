@@ -4,6 +4,9 @@ body {
     padding: 0;
     color: #333;
     line-height: 1.6;
+   background-image: url('DALL·E 2024-02-25 12.11.45 - Design a cleaner and more focused image suitable for a landing page of 'ToonTales', an AI-powered cartoon video maker. This image should emphasize the.webp');
+    background-size: cover;
+    background-position: center;
 }
 
 nav ul {
@@ -39,3 +42,4 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
