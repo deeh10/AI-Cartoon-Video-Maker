@@ -42,8 +42,7 @@
     <h1>Get Started with ToonTales</h1>
     <p>Watch the video below to see how you can create your own ToonTales.</p>
     <div class="video-container">
-        <!-- Example YouTube embed code -->
-        <video>
+        <video/project_video.mp4>
 </div>
 
 <footer>
