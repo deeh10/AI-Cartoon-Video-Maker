@@ -60,7 +60,7 @@
 <div class="title-section">
     <h1>ToonTales - Your Memories Reimagined</h1>
     <p>Transforming your memorable moments into engaging cartoon stories.</p>
-    <a href="#get-started" class="cta-button">Get Started</a>
+   [Get Started](second_page.md)
 </div>
 
 <div class="content" id="get-started">
