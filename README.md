@@ -13,17 +13,16 @@
         }
         .cover-photo {
             width: 100%;
-            height: auto;
-            background-image: url(https://i.imgur.com/3rSRrlY.jpg);
+            height: 50vh; /* Adjusted height */
+            background-image: url('https://i.imgur.com/3rSRrlY.jpeg');
             background-size: cover;
             background-position: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 100px 20px;
             color: white;
             background-color: rgba(0,0,0,0.5); /* Dark overlay on image */
+        }
+        .title-section {
+            text-align: center;
+            padding: 20px;
         }
         .content {
             padding: 20px;
@@ -54,14 +53,17 @@
 <body>
 
 <div class="cover-photo">
-    <div>
-        <h1>ToonTales - Your Memories Reimagined</h1>
-        <p>Transforming your memorable moments into engaging cartoon stories.</p>
-        <a href="#get-started" class="cta-button">Get Started</a>
-    </div>
+    <!-- Cover photo remains here without text -->
 </div>
 
-<div class="content">
+<!-- Title and Get Started button moved out of the cover photo -->
+<div class="title-section">
+    <h1>ToonTales - Your Memories Reimagined</h1>
+    <p>Transforming your memorable moments into engaging cartoon stories.</p>
+    <a href="#get-started" class="cta-button">Get Started</a>
+</div>
+
+<div class="content" id="get-started">
     <h2>How ToonTales Works</h2>
     <div class="feature">
         <h3>Privacy-Centric Photo Transformer</h3>
