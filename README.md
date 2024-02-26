@@ -14,7 +14,7 @@
         .cover-photo {
             width: 100%;
             height: auto;
-            background-image: url('your-cover-photo.jpg');
+            background-image: url('[your-cover-photo.jpg](https://drive.google.com/file/d/1qBWOE_RNf6aTYjBox23jEekcmXDINKrg/view?usp=sharing)');
             background-size: cover;
             background-position: center;
             display: flex;
