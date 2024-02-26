@@ -14,7 +14,7 @@
         .cover-photo {
             width: 100%;
             height: auto;
-            background-image: url[img]https://i.imgur.com/3rSRrlY.jpeg[/img];
+            background-image: url[img]https://i.imgur.com/3rSRrlY.jpeg];
             background-size: cover;
             background-position: center;
             display: flex;
