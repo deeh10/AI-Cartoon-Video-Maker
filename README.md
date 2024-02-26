@@ -1,75 +1,84 @@
-# AI
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ToonTales - Transform Your Memories</title>
-    <link rel="stylesheet" href="style.css"> <!-- Linking CSS file -->
+    <title>ToonTales - Your Memories Reimagined</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        .cover-photo {
+            width: 100%;
+            height: auto;
+            background-image: url('your-cover-photo.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 100px 20px;
+            color: white;
+            background-color: rgba(0,0,0,0.5); /* Dark overlay on image */
+        }
+        .content {
+            padding: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .feature, .epic {
+            margin-bottom: 20px;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
 
-<header>
-    <nav>
-        <ul>
-            <li><a href="#how-it-works">How It Works</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <div class="hero-section">
-        <h1>Transform Your Memories into Cartoon Stories</h1>
-        <p>With ToonTales, bring your memories to life in a fun and creative way.</p>
+<div class="cover-photo">
+    <div>
+        <h1>ToonTales - Your Memories Reimagined</h1>
+        <p>Transforming your memorable moments into engaging cartoon stories.</p>
         <a href="#get-started" class="cta-button">Get Started</a>
     </div>
-</header>
+</div>
 
-<section id="how-it-works">
-    <h2>How It Works</h2>
-    <ol>
-        <li>Choose your favorite photos or videos.</li>
-        <li>Select a cartoon style and theme.</li>
-        <li>Let ToonTales transform them into a unique cartoon tale.</li>
-        <li>Share your cartoon tale with friends and family on social media.</li>
-    </ol>
-</section>
-
-<section id="features">
-    <h2>Features</h2>
-    <div class="feature-item">
-        <h3>Privacy-Centric</h3>
-        <p>Transform photos without compromising your privacy.</p>
+<div class="content">
+    <h2>How ToonTales Works</h2>
+    <div class="feature">
+        <h3>Privacy-Centric Photo Transformer</h3>
+        <p>Share images in various cartoon styles inspired by your real photos, ensuring your privacy.</p>
     </div>
-    <div class="feature-item">
-        <h3>Story-Driven Comic Strips</h3>
-        <p>Turn your memories into engaging comic strips with customizable storylines.</p>
+    <div class="feature">
+        <h3>Story-Driven Comic Strip Generator</h3>
+        <p>Generate a comic strip with a storyline to remember and narrate your life stories.</p>
     </div>
-    <div class="feature-item">
+    <div class="feature">
         <h3>Dynamic Video Maker</h3>
-        <p>Create interactive videos from your photos to enhance your social media presence.</p>
+        <p>Create and share interactive videos to increase your social media engagement.</p>
     </div>
-</section>
-
-<section id="testimonials">
-    <h2>What Our Users Say</h2>
-    <div class="testimonial-item">
-        <p>"ToonTales has given a creative twist to how I share my travel memories. Absolutely love it!" - Alex</p>
-    </div>
-    <div class="testimonial-item">
-        <p>"The comic strip feature is a hit among my friends. Thanks, ToonTales!" - Jamie</p>
-    </div>
-</section>
-
-<section id="gallery">
-    <h2>Gallery</h2>
-    <p>Check out some of the amazing tales created by our users.</p>
-    <!-- Images or links to stories would go here -->
-</section>
+</div>
 
 <footer>
-    <p>Contact us at info@toontales.com for more information.</p>
+    <p>Contact us at info@toontales.com</p>
     <p>&copy; 2024 ToonTales. All rights reserved.</p>
 </footer>
 
