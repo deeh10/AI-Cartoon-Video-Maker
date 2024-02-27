@@ -13,7 +13,7 @@
         .cover-photo {
             width: 100%;
             height: 60vh; /* Adjusted height */
-            background-image: url('https://i.imgur.com/XCoTNUA.jpg');
+            background-image: url('https://i.imgur.com/XE4dHRK.jpg');
             background-size: cover;
             background-position: center;
             color: white;
