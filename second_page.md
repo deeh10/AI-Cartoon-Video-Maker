@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,7 +16,7 @@
             padding-top: 25px;
             height: 0;
         }
-        .video-container iframe {
+        .video-container iframe, .video-container video {
             position: absolute;
             top: 0;
             left: 0;
@@ -42,8 +41,14 @@
     <h1>Get Started with ToonTales</h1>
     <p>Watch the video below to see how you can create your own ToonTales.</p>
     <div class="video-container">
-        <video/project_video.mp4>
+        <!-- Fixed: Wrap source tag within video tag -->
+        <video controls>
+            <source src="video/project_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
 </div>
+
 
 <footer>
     <p>Contact us at info@toontales.com</p>
@@ -52,4 +57,3 @@
 
 </body>
 </html>
-
